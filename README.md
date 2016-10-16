@@ -55,13 +55,31 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 1. นักศึกษาพบปัญหาในการคอมไพล์โปรแกรมหรือไม่ ถ้าเจอให้บอกที่ผิดและแนวทางการแก้ไข
 	-ไม่มีปัญหาอะไรค่ะ สามารถคอมไพล์หาค่าได้ปกติ
 2. ให้ทดลองแก้ไข <code> MessageBox(...) </code> โดยการเปลี่ยน <code> MB_OK </code> เป็นค่าอื่นๆ [ดูได้จากอ้างอิงตามลิงค์นี้](https://github.com/Desktop-Programming-Lab-2559/LAB-01/blob/master/message-box.md)
-	-เปลี่ยนให้เป็น MB_
-![]()
-```c 
- 	MessageBox(NULL, "Hello World! This is my first win32 program!", "Lesson1", MB_OK);
-```
-				
+	ยกตัวอย่างเช่น     
+	-เปลี่ยนให้เป็น MB_ERROR
+	
+![](https://github.com/fernkamon/LAB-01/blob/master/imgs/MB_ICONERROR.PNG)
 
+	-เปลี่ยนให้เป็น MB_ICONFORMATION
+	
+![](https://github.com/fernkamon/LAB-01/blob/master/imgs/MB_ICONFORMATION.PNG)
+
+	-เปลี่ยนให้เป็น MB_ICONQUEATION
+	
+![](https://github.com/fernkamon/LAB-01/blob/master/imgs/MB_ICONQUEATION.PNG)
+				
+	-เปลี่ยนให้เป็น MB_ICONWARINING
+	
+![](https://github.com/fernkamon/LAB-01/blob/master/imgs/MB_ICONWARNING.PNG)
+
+	หรือเปลี่ยนให้สามารถใช้ได้ทั้งICONและปุ่มในการกดแบบต่างๆ เช่น
+	-MB_ICONWRAINING | MB_RETRYCANCEL
+	
+![](https://github.com/fernkamon/LAB-01/blob/master/imgs/CaptureWraining.PNG)
+
+	-MB_ICONERROR | MB_OKCANCEL
+
+![](https://github.com/fernkamon/LAB-01/blob/master/imgs/MIXicon%20errorokcancle.PNG)
 
 ##[อ้างอิง](https://github.com/Desktop-Programming-Lab-2559/LAB-01/wiki/References)
 WinMain (..), MessageBox(..) 
