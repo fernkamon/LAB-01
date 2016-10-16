@@ -47,7 +47,8 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 5 กดปุ่ม Ctrl+F5 เพื่อดูผลการทำงานของโปรแกรม
 
 ## บันทึกผลการทดลอง
-
+	จากผลการทดลอง พบว่า เมื่อพิมพ์ Code ตามที่กำหนดแล้ว เมื่อทำการรันผล จะปรากฎBlock ขึ้นมาดังรูป
+	
  [ให้สรุปผลการทดลอง แล้ว commit changes จากนั้นให้ส่งไปที่ edmodo]
 
 ## คำถาม 
