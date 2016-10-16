@@ -48,8 +48,8 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 
 ## บันทึกผลการทดลอง
 	จากผลการทดลอง พบว่า เมื่อพิมพ์ Code ตามที่กำหนดแล้ว เมื่อทำการรันผล จะปรากฎBlock ขึ้นมาดังรูป
-	
- [ให้สรุปผลการทดลอง แล้ว commit changes จากนั้นให้ส่งไปที่ edmodo]
+![](https://github.com/fernkamon/LAB-01/blob/master/imgs/MB_OK.PNG)
+
 
 ## คำถาม 
 1. นักศึกษาพบปัญหาในการคอมไพล์โปรแกรมหรือไม่ ถ้าเจอให้บอกที่ผิดและแนวทางการแก้ไข
